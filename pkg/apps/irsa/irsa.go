@@ -3,7 +3,6 @@ package irsa
 import (
 	"encoding/base64"
 	"fmt"
-	"strings"
 
 	"github.com/frezbo/irsa-anywhere/pkg/component"
 	"github.com/frezbo/irsa-anywhere/pkg/resource"
@@ -31,12 +30,8 @@ func NewIRSAConfig(ctx *pulumi.Context, name string, kubeconfig pulumi.StringInp
 }
 
 func (c *irsaConfig) Create() (pulumi.Resource, error) {
-	// TODO: remove, added for testing
-	kubeconfig := c.kubeconfig.ToStringOutput().ApplyT(func(kubeconfig string) string {
-		return strings.ReplaceAll(kubeconfig, "0.0.0.0", "192.168.122.157")
-	}).(pulumi.StringOutput)
 	kubeProvider, err := kubernetes.NewProvider(c.pulumiContext, c.name, &kubernetes.ProviderArgs{
-		Kubeconfig: kubeconfig,
+		Kubeconfig: c.kubeconfig,
 	}, pulumi.Parent(c.parent))
 	if err != nil {
 		return nil, err

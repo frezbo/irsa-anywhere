@@ -162,8 +162,6 @@ func toKubeadmConfigPatchYAML(issuerURL string) (string, error) {
 			Kind: kubeadmconstants.ClusterConfigurationKind,
 		},
 		APIServer: kubeadmv1beta2.APIServer{
-			// TODO: remove, added for testing
-			CertSANs: []string{"192.168.122.157"},
 			ControlPlaneComponent: kubeadmv1beta2.ControlPlaneComponent{
 				ExtraArgs: map[string]string{
 					"api-audiences":            "https://kubernetes.default.svc.cluster.local,sts.amazonaws.com",

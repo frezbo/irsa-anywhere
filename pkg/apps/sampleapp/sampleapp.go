@@ -2,7 +2,6 @@ package sampleapp
 
 import (
 	"fmt"
-	"strings"
 
 	awsmeta "github.com/frezbo/irsa-anywhere/pkg/aws/meta"
 	"github.com/frezbo/irsa-anywhere/pkg/component"
@@ -32,12 +31,8 @@ func NewSampleAppConfig(ctx *pulumi.Context, oidcEndpoint, oidcArn, kubeconfig p
 }
 
 func (c *sampleAppConfig) Create() (pulumi.Resource, error) {
-	// TODO: remove, added for testing
-	kubeconfig := c.kubeconfig.ToStringOutput().ApplyT(func(kubeconfig string) string {
-		return strings.ReplaceAll(kubeconfig, "0.0.0.0", "192.168.122.157")
-	}).(pulumi.StringOutput)
 	kubeProvider, err := kubernetes.NewProvider(c.pulumiContext, c.name, &kubernetes.ProviderArgs{
-		Kubeconfig: kubeconfig,
+		Kubeconfig: c.kubeconfig,
 	}, pulumi.Parent(c.parent), pulumi.DependsOn(c.dependencies))
 	if err != nil {
 		return nil, err
