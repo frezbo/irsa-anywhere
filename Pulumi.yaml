@@ -1,0 +1,3 @@
+name: irsa-anywhere
+runtime: go
+description: Secure access to AWS services using IRSA anywhere

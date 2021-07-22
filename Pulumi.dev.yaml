@@ -1,0 +1,2 @@
+config:
+  irsa-anywhere:createSampleApp: "true"
