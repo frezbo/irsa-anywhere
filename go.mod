@@ -3,7 +3,7 @@ module github.com/frezbo/irsa-anywhere
 go 1.16
 
 require (
-	github.com/frezbo/pulumi-provider-kind/sdk/v3 v3.0.0-20210715203737-fc643785fa01
+	github.com/frezbo/pulumi-provider-kind/sdk/v3 v3.0.0-20210722213855-0dd4d7e80917
 	github.com/pkg/errors v0.9.1
 	github.com/pulumi/pulumi-aws/sdk/v4 v4.13.0
 	github.com/pulumi/pulumi-kubernetes/sdk/v3 v3.5.1
