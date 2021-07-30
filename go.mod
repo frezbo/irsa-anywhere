@@ -6,7 +6,7 @@ require (
 	github.com/frezbo/pulumi-provider-kind/sdk/v3 v3.0.0-20210722213855-0dd4d7e80917
 	github.com/pkg/errors v0.9.1
 	github.com/pulumi/pulumi-aws/sdk/v4 v4.14.0
-	github.com/pulumi/pulumi-kubernetes/sdk/v3 v3.5.1
+	github.com/pulumi/pulumi-kubernetes/sdk/v3 v3.5.2
 	github.com/pulumi/pulumi-tls/sdk/v4 v4.0.0
 	github.com/pulumi/pulumi/sdk/v3 v3.9.0
 	k8s.io/apimachinery v0.21.3
