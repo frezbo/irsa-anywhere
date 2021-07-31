@@ -185,8 +185,8 @@ github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568/go.mod h1:xEzjJPgXI
 github.com/fogleman/gg v1.2.1-0.20190220221249-0403632d5b90/go.mod h1:R/bRT+9gY/C5z7JzPU0zXsXHKM4/ayA+zqcVNZzPa1k=
 github.com/form3tech-oss/jwt-go v3.2.2+incompatible/go.mod h1:pbq4aXjuKjdthFRnoDwaVPLA+WlJuPGy+QneDUgJi2k=
 github.com/frankban/quicktest v1.11.3/go.mod h1:wRf/ReqHper53s+kmmSZizM8NamnL3IM0I9ntUbOk+k=
-github.com/frezbo/pulumi-provider-kind/sdk/v3 v3.0.0-20210722213855-0dd4d7e80917 h1:txF1xdOBnu0gcno18b7uN1od39yaoOH1+9M520BYIjY=
-github.com/frezbo/pulumi-provider-kind/sdk/v3 v3.0.0-20210722213855-0dd4d7e80917/go.mod h1:+DvIRtq+oyRq0utv+t0YHG0ilOnJCt2Xg2lEXhqKetM=
+github.com/frezbo/pulumi-provider-kind/sdk/v3 v3.0.0-20210731173108-242c2de77c57 h1:3CBqbGM9JeHGmbkehA2GLk4BTPNmAZ2POJM6ts8CoxM=
+github.com/frezbo/pulumi-provider-kind/sdk/v3 v3.0.0-20210731173108-242c2de77c57/go.mod h1:i2p0Hm46Sb++tRp7Y8Bx6/WSdpEDAjza5LC9CHmJDUU=
 github.com/fsnotify/fsnotify v1.4.7/go.mod h1:jwhsz4b93w/PPRr/qN1Yymfu8t87LnFCMoQvtojpjFo=
 github.com/fsnotify/fsnotify v1.4.9/go.mod h1:znqG4EE+3YCdAaPaxE2ZRY/06pZUdp0tY4IgpuI1SZQ=
 github.com/fvbommel/sortorder v1.0.1/go.mod h1:uk88iVf1ovNn1iLfgUVU2F9o5eO30ui720w+kxuqRs0=
@@ -548,7 +548,6 @@ github.com/pulumi/pulumi-tls/sdk/v4 v4.0.0 h1:ZKyVLzJYR4K+qF0Rb6P7GmIwJ3pzkpycfV
 github.com/pulumi/pulumi-tls/sdk/v4 v4.0.0/go.mod h1:TuY3oaCsS43h6/qxZp0uVTq3WTuujjkh35JFwbFZQvk=
 github.com/pulumi/pulumi/sdk/v3 v3.0.0/go.mod h1:GBHyQ7awNQSRmiKp/p8kIKrGrMOZeA/k2czoM/GOqds=
 github.com/pulumi/pulumi/sdk/v3 v3.3.1/go.mod h1:GBHyQ7awNQSRmiKp/p8kIKrGrMOZeA/k2czoM/GOqds=
-github.com/pulumi/pulumi/sdk/v3 v3.5.1/go.mod h1:GBHyQ7awNQSRmiKp/p8kIKrGrMOZeA/k2czoM/GOqds=
 github.com/pulumi/pulumi/sdk/v3 v3.7.0/go.mod h1:GBHyQ7awNQSRmiKp/p8kIKrGrMOZeA/k2czoM/GOqds=
 github.com/pulumi/pulumi/sdk/v3 v3.9.1 h1:lThSiXzA9M+RjA6mquz+Oy569GSGyERPu/pGXLxA/xM=
 github.com/pulumi/pulumi/sdk/v3 v3.9.1/go.mod h1:GBHyQ7awNQSRmiKp/p8kIKrGrMOZeA/k2czoM/GOqds=
