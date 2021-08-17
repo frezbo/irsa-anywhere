@@ -5,7 +5,7 @@ go 1.16
 require (
 	github.com/frezbo/pulumi-provider-kind/sdk/v3 v3.0.0-20210731173108-242c2de77c57
 	github.com/pkg/errors v0.9.1
-	github.com/pulumi/pulumi-aws/sdk/v4 v4.15.0
+	github.com/pulumi/pulumi-aws/sdk/v4 v4.16.0
 	github.com/pulumi/pulumi-kubernetes/sdk/v3 v3.6.0
 	github.com/pulumi/pulumi-tls/sdk/v4 v4.0.0
 	github.com/pulumi/pulumi/sdk/v3 v3.10.2
