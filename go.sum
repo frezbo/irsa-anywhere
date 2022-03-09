@@ -549,8 +549,8 @@ github.com/pulumi/pulumi/sdk/v3 v3.14.0/go.mod h1:aT7YmFdR6/T7tp2tMIZ68WRD1Xyv5a
 github.com/pulumi/pulumi/sdk/v3 v3.16.0/go.mod h1:252ou/zAU1g6E8iTwe2Y9ht7pb5BDl2fJlOuAgZCHiA=
 github.com/pulumi/pulumi/sdk/v3 v3.17.0/go.mod h1:252ou/zAU1g6E8iTwe2Y9ht7pb5BDl2fJlOuAgZCHiA=
 github.com/pulumi/pulumi/sdk/v3 v3.25.0/go.mod h1:VsxW+TGv2VBLe/MeqsAr9r0zKzK/gbAhFT9QxYr24cY=
-github.com/pulumi/pulumi/sdk/v3 v3.25.1 h1:Fj0LdbkmYmYq3fDNiDQ9JsuAPrTBLJBKR1uiisv2pAc=
-github.com/pulumi/pulumi/sdk/v3 v3.25.1/go.mod h1:VsxW+TGv2VBLe/MeqsAr9r0zKzK/gbAhFT9QxYr24cY=
+github.com/pulumi/pulumi/sdk/v3 v3.26.0 h1:wNtQcmN/HfaVW1eZw34H+Z/SEogxQNzFzPqgcPER9Kc=
+github.com/pulumi/pulumi/sdk/v3 v3.26.0/go.mod h1:VsxW+TGv2VBLe/MeqsAr9r0zKzK/gbAhFT9QxYr24cY=
 github.com/quobyte/api v0.1.8/go.mod h1:jL7lIHrmqQ7yh05OJ+eEEdHr0u/kmT1Ff9iHd+4H6VI=
 github.com/remyoudompheng/bigfft v0.0.0-20170806203942-52369c62f446/go.mod h1:uYEyJGbgTkfkS4+E/PavXkNJcbFIpEtjt2B0KDQ5+9M=
 github.com/rivo/uniseg v0.2.0 h1:S1pD9weZBuJdFmowNwbpi7BJ8TNftyUImj/0WQi72jY=
