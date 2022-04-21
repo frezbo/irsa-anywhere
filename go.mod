@@ -10,7 +10,7 @@ require (
 	github.com/pulumi/pulumi-tls/sdk/v4 v4.2.2
 	github.com/pulumi/pulumi/sdk/v3 v3.30.0
 	k8s.io/apimachinery v0.22.3
-	k8s.io/kubernetes v1.23.5
+	k8s.io/kubernetes v1.23.6
 	sigs.k8s.io/kind v0.12.0
 )
 
