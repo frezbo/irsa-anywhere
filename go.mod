@@ -8,7 +8,7 @@ require (
 	github.com/pulumi/pulumi-aws/sdk/v4 v4.38.1
 	github.com/pulumi/pulumi-kubernetes/sdk/v3 v3.19.1
 	github.com/pulumi/pulumi-tls/sdk/v4 v4.4.0
-	github.com/pulumi/pulumi/sdk/v3 v3.32.1
+	github.com/pulumi/pulumi/sdk/v3 v3.33.1
 	k8s.io/apimachinery v0.22.3
 	k8s.io/kubernetes v1.24.0
 	sigs.k8s.io/kind v0.12.0
