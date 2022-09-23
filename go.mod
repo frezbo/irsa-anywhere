@@ -11,7 +11,7 @@ require (
 	github.com/pulumi/pulumi/sdk/v3 v3.38.0
 	k8s.io/apimachinery v0.22.3
 	k8s.io/kubernetes v1.25.0
-	sigs.k8s.io/kind v0.14.0
+	sigs.k8s.io/kind v0.16.0
 )
 
 replace (
