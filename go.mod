@@ -7,8 +7,8 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/pulumi/pulumi-aws/sdk/v4 v4.38.1
 	github.com/pulumi/pulumi-kubernetes/sdk/v3 v3.21.0
-	github.com/pulumi/pulumi-tls/sdk/v4 v4.6.0
-	github.com/pulumi/pulumi/sdk/v3 v3.38.0
+	github.com/pulumi/pulumi-tls/sdk/v4 v4.9.1
+	github.com/pulumi/pulumi/sdk/v3 v3.50.1
 	k8s.io/apimachinery v0.22.3
 	k8s.io/kubernetes v1.25.0
 	sigs.k8s.io/kind v0.14.0
